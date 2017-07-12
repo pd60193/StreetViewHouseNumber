@@ -35,4 +35,8 @@ The Utility Code is in the util.py file contains the following functions -:
 - init_filter : Initializes the filter along with bias
 - convpool : Convolution and Pooling on an input X with Filter W and poolsize as (2,2)
 
+## Output
 
+After running for 500 iterations and a batch size of 500 with above configurations, I got an error rate of 0.08. In other terms, the classification rate qas 0.92.
+
+I also ran the code on the **MNIST Handwritten digit**  Dataset and got a classification rate of 0.99 on **Kaggle**.
